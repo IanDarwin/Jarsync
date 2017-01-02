@@ -12,3 +12,6 @@ This was moved to http://jakeapp.sourceforge.net/jarsync/team-list.html by Johan
 at https://github.com/JohannesBuchner/Jarsync. This repository was forked from there.
 
 Consult the git log for details on the changes made along the way.
+
+This repository consists of two projects, jarsync itself and vwdiff, a visual diff utility based on the
+comparison engine inside the rsync protocol.
