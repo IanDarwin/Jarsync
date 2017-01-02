@@ -44,25 +44,16 @@ and Paul Mackerras, available from the URL
 
 2. Compilation.
 
-To configure and build the library, the `rdiff' example program, and the
-test programs, simply say
+This project is Maven-based. If you need to install Maven, see
+your OS's package manager, or just get the jar files from https://maven.apache.org/.
 
-	./configure
-	make
+Then you can say `mvn package`.
 
-Run `make check' to execute some regression tests. If all goes well,
-after a long while the script should print out `0 of XXX tests failed.'
+There is also a client included with the library.
+The shell script `jarsync' launches this client. 
+Alternately, you can built an all-in-one runnable Jar file using `mvn package assembly:single`.
 
-If this is a CVS checkout, first do the magic auto-dance:
-
-	aclocal; automake -ac; autoconf
-
-There is a preliminary version of an rsync-compatible client program
-available; to build it, you must configure with:
-
-	./configure --enable-client-server
-
-The shell script `jarsync' launches this client. Be aware that this code
+Be aware that the client code
 is rather buggy, and is NOT, by any means, complete.
 
 =======================================================================
