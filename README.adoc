@@ -1,0 +1,14 @@
+= jaRsync
+
+A Java Implementation of the rsync protocol.
+
+RSync was originally invented in the 1990's by Andrew Tridgell and Paul Mackerras.
+The current C-language implementation is maintained at https://git.samba.org/rsync.git.
+
+You can read more about the original version and the protocol at https://en.wikipedia.org/wiki/Rsync
+
+A Java implementation was developed by Casey Marshall <rsdio@metastatic.org> at http://jarsync.sourceforge.net/.
+This was moved to http://jakeapp.sourceforge.net/jarsync/team-list.html by Johannes Buchner, who then moved it to github
+at https://github.com/JohannesBuchner/Jarsync. This repository was forked from there.
+
+Consult the git log for details on the changes made along the way.
